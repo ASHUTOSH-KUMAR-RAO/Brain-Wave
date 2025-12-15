@@ -1,4 +1,3 @@
-
 import {
   benefitIcon1,
   benefitIcon2,
@@ -34,8 +33,13 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
 } from "../assets";
+
+import facebookLogo from "../assets/Facebook.png";
+import discordLogo from "../assets/Discord.png";
+import netflixLogo from "../assets/Netflix.png";
+import netlifyLogo from "../assets/Netlify.png";
+import jiraLogo from "../assets/Jira.png";
 
 export const navigation = [
   {
@@ -76,7 +80,33 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  {
+    id: "0",
+    name: "Facebook",
+    logo: facebookLogo
+  },
+  {
+    id: "1",
+    name: "Discord",
+    logo: discordLogo
+  },
+  {
+    id: "2",
+    name: "Netflix",
+    logo: netflixLogo
+  },
+  {
+    id: "3",
+    name: "Netlify",
+    logo: netlifyLogo
+  },
+  {
+    id: "4",
+    name: "Jira",
+    logo: jiraLogo
+  }
+];
 
 export const brainwaveServices = [
   "Photo generating",
